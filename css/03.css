@@ -1,0 +1,15 @@
+.texto {
+    background-color: green;
+}
+
+.azul {
+    color: blue;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.texto.mayusculas { /* esto es para 2 clases en el mismo elemento */
+    font-size: 10rem;
+}

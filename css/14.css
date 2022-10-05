@@ -1,0 +1,17 @@
+div p:not(:nth-child(3)) {
+    color: cadetblue;
+}
+
+/*es lo mismo pero con clases*/
+div p:not(.texto):not(.oferta) {
+    color: cadetblue;
+}
+
+/*para los impares*/
+/* div p:nth-child(2n + 1) {
+    color: cadetblue;
+} */
+
+/* 
+para impares odd
+para pares even */

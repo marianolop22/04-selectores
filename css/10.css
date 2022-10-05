@@ -1,0 +1,10 @@
+a[href^="http"] { /* esto busca una propiedad en particular*/ 
+    color: red;
+}
+a[href$=".com"] { /* que termine con .com*/ 
+    color: red;
+}
+
+input[type="tel"] {
+    border: 5px solid red;
+}
